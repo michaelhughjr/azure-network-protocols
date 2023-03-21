@@ -25,9 +25,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
+- Step 1. Creating Resource Group
+- Step 2. Creating Virtual Machines
+- Step 3. Using Remote Desktop for Windows
 - Step 4
 
 <h2>Actions and Observations</h2>
@@ -41,17 +41,17 @@ Created a resource group called "RG-Lab-02" in Azure to contain or hold the rela
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JHTXM1i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Using Microsoft Azure to create two virtual machines called VM1 and VM2 within the resource group named RG-Lab-02. Each virtual machine is running seperate and different operating systems, VM1 is running on a Windows operating system and VM2 is running on a Linux operatig system.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/R6t0myZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Here within Azure each virtual machine is given a public and private IP address, disk space, virtual network (vnet), network interface card (NIC), and a network security group (aka  firewall).
 </p>
 <br />
